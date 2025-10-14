@@ -1,6 +1,7 @@
-import Header from "../components/Header"
-import ProjetCard from "../components/ProjetCard"
-import "../Styles/Projets.css"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ProjetCard from "../components/ProjetCard";
+import "../Styles/Projets.css";
 
 const projets = [
     {
@@ -42,6 +43,7 @@ function Projets () {
                     <ProjetCard key={index} {...projet} />
                 ))}
             </div>
+            <Footer />
         </div>
     )
 }

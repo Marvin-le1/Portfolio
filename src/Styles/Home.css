@@ -1,17 +1,21 @@
-
-
 .home-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 20px;
-  background-color: #f9f9f9;
+  flex-direction: column;
+  align-items: stretch;
   min-height: 100vh;
+  background-color: #f9f9f9;
 }
 
 .intro-section {
   text-align: center;
-  max-width: 600px;
+  max-width: 900px;
+  margin: 0 auto;
+  flex: 1; /* occupe l'espace entre header et footer */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* centre verticalement */
+  padding: 40px 20px; /* espace interne propre */
 }
 
 .intro-section h1 {

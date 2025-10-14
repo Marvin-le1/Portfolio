@@ -1,4 +1,5 @@
-import Header from "../components/Header"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../Styles/Home.css"
 
 function Info () {
@@ -49,6 +50,7 @@ function Info () {
             </div>
             
         </section>
+        <Footer />
         </div>
     );
 };

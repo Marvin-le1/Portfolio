@@ -3,6 +3,9 @@ import Accueil from "./pages/Accueil";
 import Contact from "./pages/Contact";
 import Projets from "./pages/Projets";
 import Info from "./pages/Info";
+import Mentions from "./pages/Mentions";
+import Confidentialite from "./pages/Confidentialite";
+
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Projets" element={<Projets />} />
         <Route path="/Info" element={<Info />} />
+        <Route path="/mentions-legales" element={<Mentions />} />
+        <Route path="/confidentialite" element={<Confidentialite />} />
       </Routes>
     </Router>
   );

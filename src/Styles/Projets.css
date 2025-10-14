@@ -1,9 +1,14 @@
 
-.projets-page {
-    padding: 100px 20px;
-    background-color: #f9f9f9;
-    min-height: 100vh;
-  }
+ .projets-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
   
   .liste-projets {
     display: flex;
@@ -11,6 +16,7 @@
     justify-content: center;
     gap: 30px;
     margin-top: 40px;
+    margin-bottom: 100px;
   }
   
   .projet-card {
@@ -59,3 +65,6 @@
   .projet-lien:hover {
     background-color: #3730a3;
   }
+
+/* Pour que le footer reste collé en bas même avec peu de contenu */
+.footer { margin-top: auto; }
