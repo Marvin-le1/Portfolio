@@ -1,0 +1,61 @@
+
+.projets-page {
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .liste-projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .projet-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .projet-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .projet-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .projet-titre {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .projet-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .projet-lien {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4F46E5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .projet-lien:hover {
+    background-color: #3730a3;
+  }
