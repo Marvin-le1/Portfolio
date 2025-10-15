@@ -1,0 +1,8 @@
+<script>
+    // Redirige toutes les routes vers index.html
+    var redirectTo = window.location.pathname;
+    if (!redirectTo.startsWith('/Portfolio')) {
+      redirectTo = '/Portfolio' + redirectTo;
+    }
+    window.location.replace(redirectTo);
+  </script>
