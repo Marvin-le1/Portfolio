@@ -6,10 +6,9 @@ import Info from "./pages/Info";
 import Mentions from "./pages/Mentions";
 import Confidentialite from "./pages/Confidentialite";
 
-
 function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/Contact" element={<Contact />} />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/Home.css';
 import CVButton from '../components/CVButton';
@@ -7,6 +7,11 @@ import Footer from "../components/Footer";
 
 
 function Accueil () {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="home-container">
       <Header />

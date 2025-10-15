@@ -7,17 +7,17 @@ const projets = [
     {
         titre: "Portfolio",
         description: "Mon site personnel présentant mes projets, compétences et parcours. Design responsive et performances optimisées.",
-        image: "/img-project/Portfolio.png",
+        image: "/Portfolio/img-project/Portfolio.png",
     },
     {
         titre: "FlyingWeb",
         description: "Application de gestion d’avions et d’aéroports avec réservation de vols (aller simple et aller‑retour) via une interface fluide.",
-        image: "/img-project/FlyingWeb.webp",
+        image: "/Portfolio/img-project/FlyingWeb.webp",
     },
     {
         titre: "PHP Toolbox",
         description: "Application PHP regroupant plusieurs outils pratiques : conversion euros ↔ dollars, décimal ↔ hexadécimal, chiffrement César, calculs de pourcentage et règle de trois. Simple et efficace.",
-        image: "/img-project/phpToolBox.png",
+        image: "/Portfolio/img-project/phpToolBox.png",
     },
     {
         titre: "Resonix",
@@ -26,7 +26,7 @@ const projets = [
     {
         titre: "DockerCube",
         description: "Environnement Docker avec workflows dev/prod séparés et déploiement simplifié des nouvelles versions en production.",
-        image: "/img-project/dockerCube.png",
+        image: "/Portfolio/img-project/dockerCube.png",
     },
     {
         titre: "MedLock",
