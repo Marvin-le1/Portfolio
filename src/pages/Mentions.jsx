@@ -13,7 +13,7 @@ export default function Mentions() {
         <p>
           <strong>Nom :</strong> Marvin Levoyer<br />
           <strong>Statut :</strong> Étudiant<br />
-          <strong>Contact :</strong> <a href="mailto:levoyermarvin@gmail.com">levoyermarvin@gmail.com</a>
+          <strong>Contact :</strong> <a href="mailto:levoyermarvin+portfolio@gmail.com">levoyermarvin@gmail.com</a>
         </p>
 
         <h2>Hébergement</h2>
