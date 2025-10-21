@@ -38,7 +38,7 @@ export default function Confidentialite() {
         <h2>6. Droits</h2>
         <p>
           Vous pouvez exercer vos droits d’accès, rectification et suppression en écrivant à :{" "}
-          <a href="mailto:levoyermarvi@gmail.com">levoyermarvi@gmail.com</a>.
+          <a href="mailto:levoyermarvin@gmail.com">levoyermarvin@gmail.com</a>.
         </p>
 
         <h2>7. Cookies</h2>
