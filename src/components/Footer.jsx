@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="footer-links">
         <Link to="/mentions-legales">Mentions légales</Link>
         <Link to="/confidentialite">Politique de confidentialité</Link>
-        <a href="https://github.com/marvinlevoyer" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Marvin-le1" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
-        <a href="https://www.linkedin.com/in/marvin-levoyer/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/marvin-levoyer-5a0150321/" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
       </div>
